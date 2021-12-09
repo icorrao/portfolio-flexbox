@@ -135,11 +135,7 @@ body {
 
 .section2 {
   display: flex;
-  justify-content: space-between;
-}
-
-.educacion-texto,
-.experiencia-texto {
+  justify-content: space-evenly;
   margin-left: 10px;
   padding: 20px;
 }

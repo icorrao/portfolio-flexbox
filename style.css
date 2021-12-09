@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav*/
+.navbar {
+  background-color: rgb(37, 37, 37);
+  color: #f0f0f0;
+  padding: 30px 0px;
+  align-items: center;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img {
+  height: 30px;
+  width: auto;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+#boton {
+  color: #f0f0f0;
+  text-decoration: none;
+  border: 1px solid #f0f0f0;
+  border-radius: 20%;
+  padding: 17px;
+}
+/*nav end*/
+
+/*header*/
+
+#fondo-persona img {
+  display: block;
+}
+
+#fondo {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#persona {
+  margin-top: -125px;
+  margin-left: 25px;
+  border: 1px solid #a7a7a7;
+  border-radius: 50%;
+}
+
+/*section*/
+
+.section {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #a7a7a7;
+  border-radius: 20px;
+}
+
+#imagenes-derecha img {
+  height: 200px;
+  width: auto;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagenes-header img {
+  height: 50px;
+  width: auto;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.texto h1 {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.texto p {
+  margin-left: 20px;
+}
+
+.texto button {
+  margin-left: 20px;
+  background-color: #c8c8c8;
+  padding: 10px 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+/*SECTION 1*/
+
+.editar img {
+  height: 30px;
+  width: auto;
+  /*margin-right: 20px;*/
+  margin-top: 10px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#acerca-de {
+  margin-left: 10px;
+  padding: 20px;
+}
+
+/*SECTION 2*/
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.educacion-texto,
+.experiencia-texto {
+  margin-left: 10px;
+  padding: 20px;
+}
